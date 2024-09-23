@@ -12,7 +12,7 @@ var connectionString = builder.Configuration.GetConnectionString("Connection");
 
 //registrar servicio para la conexion
 builder.Services.AddDbContext<ContextApp>(
-    options => options.UseSqlServer(connectionString)
+    options => options.UseSqlite(connectionString)
 );
 
 builder.Services.AddControllers();

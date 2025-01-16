@@ -2,13 +2,13 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using WebApiPerson.Context.cs;
+using WebApiPerson.Data.DbContexts;
 
 #nullable disable
 
-namespace WebApiPerson.Migrations
+namespace WebApiPerson.Data.Migrations
 {
-    [DbContext(typeof(ContextApp))]
+    [DbContext(typeof(PersonApiContext))]
     partial class ContextAppModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)

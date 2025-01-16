@@ -3,13 +3,13 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using WebApiPerson.Context.cs;
+using WebApiPerson.Data.DbContexts;
 
 #nullable disable
 
-namespace WebApiPerson.Migrations
+namespace WebApiPerson.Data.Migrations
 {
-    [DbContext(typeof(ContextApp))]
+    [DbContext(typeof(PersonApiContext))]
     [Migration("20240923213657_InitialSQliteSetup")]
     partial class InitialSQliteSetup
     {

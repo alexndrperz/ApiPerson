@@ -1,4 +1,4 @@
-﻿namespace WebApiPerson.Models
+﻿namespace WebApiPerson.Business.DTOs
 {
     public class Person
     {

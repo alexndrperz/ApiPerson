@@ -5,6 +5,8 @@ obj/
 *.vscode/
 *.suo
 *.user
+db.sys-shm
+db.sys-wal
 *.userosscache
 *.sln.docstates
 

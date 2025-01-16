@@ -10,6 +10,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementos de la solución",
 		.gitignore = .gitignore
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiPerson.Data", "WebApiPerson.Data\WebApiPerson.Data.csproj", "{7C514B35-1AC6-4606-A1A4-6117C5D18ED4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiPerson.Business", "WebApiPerson.Business\WebApiPerson.Business.csproj", "{1CDDD010-7EDB-4AF6-ABA4-56628114875B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +24,14 @@ Global
 		{E247C1FF-2FF7-4B71-8814-3FD0A95A2B4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E247C1FF-2FF7-4B71-8814-3FD0A95A2B4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E247C1FF-2FF7-4B71-8814-3FD0A95A2B4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C514B35-1AC6-4606-A1A4-6117C5D18ED4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C514B35-1AC6-4606-A1A4-6117C5D18ED4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C514B35-1AC6-4606-A1A4-6117C5D18ED4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C514B35-1AC6-4606-A1A4-6117C5D18ED4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CDDD010-7EDB-4AF6-ABA4-56628114875B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CDDD010-7EDB-4AF6-ABA4-56628114875B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CDDD010-7EDB-4AF6-ABA4-56628114875B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CDDD010-7EDB-4AF6-ABA4-56628114875B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

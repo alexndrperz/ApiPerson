@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace WebApiPerson.Migrations
+namespace WebApiPerson.Data.Migrations
 {
     /// <inheritdoc />
     public partial class InitialSQliteSetup : Migration
